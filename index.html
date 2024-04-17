@@ -3,275 +3,403 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Адвокат</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <a href="">
-        <img src="./images/vib&company.jpg" alt="vib&company" height="50px" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="">Головна</a></li>
-          <li><a href="">Послуги</a></li>
-          <li><a href="">Щось тут</a></li>
-          <li><a href="">Контакти</a></li>
+    <!-- -----------------------header----------------------- -->
+    <header class="header">
+      <div class="container header-container">
+        <a class="header-logo link" href="">
+          <img
+            class="header-img"
+            src="./images/svg/logo.svg"
+            alt="vib&company"
+            height="80px"
+          />
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav-list list">
+            <li class="header-item">
+              <a class="header-link link" href="">Послуги</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Щось тут</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Контакти</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Головна</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact list">
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="tel:+380983264191"
+              >+38 098 326 41 91</a
+            >
+          </li>
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="mailto:i11071989@ukr.net"
+              >i11071989@ukr.net</a
+            >
+          </li>
         </ul>
-      </nav>
-      <a href="tel:+380983264191">+38 098 326 41 91</a>
-      <a href="mailto:i11071989@ukr.net">i11071989@ukr.net</a>
+      </div>
     </header>
-    <!----------------------- main --------------------------->
+    <!----------------------- main ----hero----------------------->
     <main>
       <section class="hero">
-        <h1>Адвокат Черкаси</h1>
-        <h2>Лучинович Інна Віталіївна</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolor
-          quos porro quisquam eaque quae, illum consectetur esse architecto
-          reprehenderit officia culpa iste vero sunt corporis tempora suscipit
-          nisi pariatur totam. A officia quas earum consequatur maiores, vero ex
-          voluptates consectetur voluptas suscipit nulla. Excepturi atque
-          voluptatum rem. Adipisci reprehenderit nulla quam quis nihil
-          assumenda.
-        </p>
-        <img src="./images/foto.jpg" alt="Фото" />
+        <div class="container hero-container">
+          <div class="hero-info">
+            <h1 class="hero-main-title">Адвокат Черкаси</h1>
+            <h2 class="hero-title">Лучинович Інна Віталіївна</h2>
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              dolor quos porro quisquam eaque quae, illum consectetur esse
+              architecto reprehenderit officia culpa iste vero sunt corporis
+              tempora suscipit nisi pariatur totam. A officia quas earum
+              consequatur maiores, vero ex voluptates consectetur voluptas
+              suscipit nulla. Excepturi atque voluptatum rem. Adipisci
+              reprehenderit nulla quam quis nihil assumenda. Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Odit odio modi
+              reprehenderit minima est. Modi nulla voluptates officia quia
+              quaerat fuga quas sint distinctio. Dolore deserunt expedita magni
+              cum saepe. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Deleniti eveniet dicta obcaecati tempora velit numquam
+              dignissimos nulla laborum. Sit dignissimos voluptatum in nostrum
+              cum fuga, alias quis facilis adipisci quas laudantium omnis
+              commodi quaerat saepe, at suscipit ipsa debitis est earum impedit.
+              Voluptas culpa deserunt consequuntur quaerat temporibus aliquid
+              perspiciatis officia quibusdam ab id, est dolores labore in quo
+              reprehenderit! Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Ad, sed perferendis. Autem facilis est perferendis porro
+              officia labore, nemo molestiae laudantium? Dolor eos nostrum
+              impedit enim. Voluptatibus ea, voluptate similique ipsum tempore
+              commodi iusto vitae quas debitis excepturi consequatur perferendis
+              reiciendis incidunt numquam fuga ratione distinctio rem. Magni,
+              explicabo vero. Animi asperiores aperiam mollitia facilis impedit
+              molestias illum, nostrum maiores!
+            </p>
+          </div>
+          <img
+            src="./images/foto.jpg"
+            alt="Фото"
+            width="400px"
+            height="600px"
+          />
+        </div>
       </section>
       <!------------------ services ------------------------>
       <section class="services">
-        <h2>Послуги</h2>
-        <ul>
-          <li>
-            <h3>Послуга 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis, corrupti consequuntur inventore error dolorum, at
-              expedita nostrum libero autem vero iure aperiam amet, accusantium
-              quod voluptates excepturi repudiandae rerum consectetur!
-            </p>
-          </li>
-          <li>
-            <h3>Послуга 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis, corrupti consequuntur inventore error dolorum, at
-              expedita nostrum libero autem vero iure aperiam amet, accusantium
-              quod voluptates excepturi repudiandae rerum consectetur!
-            </p>
-          </li>
-          <li>
-            <h3>Послуга 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis, corrupti consequuntur inventore error dolorum, at
-              expedita nostrum libero autem vero iure aperiam amet, accusantium
-              quod voluptates excepturi repudiandae rerum consectetur!
-            </p>
-          </li>
-          <li>
-            <h3>Послуга 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis, corrupti consequuntur inventore error dolorum, at
-              expedita nostrum libero autem vero iure aperiam amet, accusantium
-              quod voluptates excepturi repudiandae rerum consectetur!
-            </p>
-          </li>
-          <li>
-            <h3>Послуга 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis, corrupti consequuntur inventore error dolorum, at
-              expedita nostrum libero autem vero iure aperiam amet, accusantium
-              quod voluptates excepturi repudiandae rerum consectetur!
-            </p>
-          </li>
-          <li>
-            <h3>Послуга 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis, corrupti consequuntur inventore error dolorum, at
-              expedita nostrum libero autem vero iure aperiam amet, accusantium
-              quod voluptates excepturi repudiandae rerum consectetur!
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="services-title">Послуги</h2>
+          <ul class="services-list list">
+            <li class="services-item">
+              <h3 class="services-item-title">Послуга 1</h3>
+              <p class="services-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, corrupti consequuntur inventore error dolorum, at
+                expedita nostrum libero autem vero iure aperiam amet,
+                accusantium quod voluptates excepturi repudiandae rerum
+                consectetur!
+              </p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Послуга 2</h3>
+              <p class="services-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, corrupti consequuntur inventore error dolorum, at
+                expedita nostrum libero autem vero iure aperiam amet,
+                accusantium quod voluptates excepturi repudiandae rerum
+                consectetur!
+              </p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Послуга 3</h3>
+              <p class="services-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, corrupti consequuntur inventore error dolorum, at
+                expedita nostrum libero autem vero iure aperiam amet,
+                accusantium quod voluptates excepturi repudiandae rerum
+                consectetur!
+              </p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Послуга 4</h3>
+              <p class="services-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, corrupti consequuntur inventore error dolorum, at
+                expedita nostrum libero autem vero iure aperiam amet,
+                accusantium quod voluptates excepturi repudiandae rerum
+                consectetur!
+              </p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Послуга 5</h3>
+              <p class="services-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, corrupti consequuntur inventore error dolorum, at
+                expedita nostrum libero autem vero iure aperiam amet,
+                accusantium quod voluptates excepturi repudiandae rerum
+                consectetur!
+              </p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Послуга 6</h3>
+              <p class="services-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, corrupti consequuntur inventore error dolorum, at
+                expedita nostrum libero autem vero iure aperiam amet,
+                accusantium quod voluptates excepturi repudiandae rerum
+                consectetur!
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!------------------ щось тут ------------------------>
-      <section class="services">
-        <h2>Щось тут</h2>
+      <section class="what">
+        <div class="container">
+          <h2 class="what-title">Щось тут</h2>
+        </div>
       </section>
       <!------------------ Корисні посилання ------------------>
-      <section>
-        <h2>Корисні посилання</h2>
-        <ul>
-          <li>
-            <a
-              href="https://ips.ligazakon.net/document/T030435?an=843030"
-              target="_blank"
-              ><img
-                src="./images/cuvilnui_kodeks_ua.jpg"
-                alt="цивільний кодекс України"
-                width="250px"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://ips.ligazakon.net/document/T030435?an=843030"
-              target="_blank"
-              ><img
-                src="./images/cuvilnui_kodeks_ua.jpg"
-                alt="цивільний кодекс України"
-                width="250px"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://ips.ligazakon.net/document/T030435?an=843030"
-              target="_blank"
-              ><img
-                src="./images/cuvilnui_kodeks_ua.jpg"
-                alt="цивільний кодекс України"
-                width="250px"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://ips.ligazakon.net/document/T030435?an=843030"
-              target="_blank"
-              ><img
-                src="./images/cuvilnui_kodeks_ua.jpg"
-                alt="цивільний кодекс України"
-                width="250px"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://ips.ligazakon.net/document/T030435?an=843030"
-              target="_blank"
-              ><img
-                src="./images/cuvilnui_kodeks_ua.jpg"
-                alt="цивільний кодекс України"
-                width="250px"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://ips.ligazakon.net/document/T030435?an=843030"
-              target="_blank"
-              ><img
-                src="./images/cuvilnui_kodeks_ua.jpg"
-                alt="цивільний кодекс України"
-                width="250px"
-            /></a>
-          </li>
-        </ul>
+      <section class="useful">
+        <div class="container">
+          <h2 class="useful-title">Корисні посилання</h2>
+          <ul class="useful-list list">
+            <li class="useful-item">
+              <a
+                class="link"
+                href="https://ips.ligazakon.net/document/T030435?an=843030"
+                target="_blank"
+                ><img
+                  class="usefull-img"
+                  src="./images/cuvilnui_kodeks_ua.jpg"
+                  alt="цивільний кодекс України"
+                  width="250px"
+              /></a>
+            </li>
+
+            <li class="useful-item">
+              <a
+                class="link"
+                href="https://ips.ligazakon.net/document/T030435?an=843030"
+                target="_blank"
+                ><img
+                  class="usefull-img"
+                  src="./images/cuvilnui_kodeks_ua.jpg"
+                  alt="цивільний кодекс України"
+                  width="250px"
+              /></a>
+            </li>
+
+            <li class="useful-item">
+              <a
+                class="link"
+                href="https://ips.ligazakon.net/document/T030435?an=843030"
+                target="_blank"
+                ><img
+                  class="usefull-img"
+                  src="./images/cuvilnui_kodeks_ua.jpg"
+                  alt="цивільний кодекс України"
+                  width="250px"
+              /></a>
+            </li>
+
+            <li class="useful-item">
+              <a
+                class="link"
+                href="https://ips.ligazakon.net/document/T030435?an=843030"
+                target="_blank"
+                ><img
+                  class="usefull-img"
+                  src="./images/cuvilnui_kodeks_ua.jpg"
+                  alt="цивільний кодекс України"
+                  width="250px"
+              /></a>
+            </li>
+
+            <li class="useful-item">
+              <a
+                class="link"
+                href="https://ips.ligazakon.net/document/T030435?an=843030"
+                target="_blank"
+                ><img
+                  class="usefull-img"
+                  src="./images/cuvilnui_kodeks_ua.jpg"
+                  alt="цивільний кодекс України"
+                  width="250px"
+              /></a>
+            </li>
+
+            <li class="useful-item">
+              <a
+                class="link"
+                href="https://ips.ligazakon.net/document/T030435?an=843030"
+                target="_blank"
+                ><img
+                  class="usefull-img"
+                  src="./images/cuvilnui_kodeks_ua.jpg"
+                  alt="цивільний кодекс України"
+                  width="250px"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--------------------------- contact ------------------------->
       <section class="contact">
-        <h2>Контакти</h2>
-        <address>
-          <ul>
-            <li>
-              <a
-                href="https://maps.app.goo.gl/D4NVSveWpqoMFiAJA"
-                target="_blank"
-                rel="noopener noreferrer"
-                >вулиця Небесної Сотні, 121, оф.6, Черкаси, Черкаська область,
-                18000</a
-              >
-            </li>
-            <li><a href="tel:+380983264191">+38 098 326 41 91</a></li>
-            <li><a href="mailto:i11071989@ukr.net">i11071989@ukr.net</a></li>
-          </ul>
-        </address>
-        <b>Час роботи</b>
-        <ul>
-          <li>
-            <p>Пн-пт: 09:00-18:00</p>
-          </li>
-          <li>
-            <p>Сб-Нд: вихідий</p>
-          </li>
-          <li>
-            <p>За попередним записом</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="contact-title">Контакти</h2>
+          <div class="contact-info">
+            <address class="info-address">
+              <ul class="info-address-list list">
+                <li class="info-address-item">
+                  <a
+                    class="info-address-link link"
+                    href="https://maps.app.goo.gl/D4NVSveWpqoMFiAJA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >вулиця Небесної Сотні, 121, оф.6, Черкаси, Черкаська
+                    область, 18000</a
+                  >
+                </li>
 
-        <b>месенджери та соцмережі</b>
-        <ul>
-          <li>
-            <a
-              href="viber://chat?number=%2B380983264191"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="./images/svg/viber.svg"
-                alt="viber"
-                width="30px"
-                height="30px"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://t.me/InnaAdvokat"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="./images/svg/telegram.svg"
-                alt="telegram"
-                width="30px"
-                height="30px"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://wa.me/380983264191"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="./images/svg/whatsapp.svg"
-                alt="whatsapp"
-                width="30px"
-                height="30px"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://m.me/inna.zhuk.35"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="./images/svg/facebook-messenger.svg"
-                alt="facebook messenger"
-                width="30px"
-                height="30px"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/vibcomp/?locale=ua_UA"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="./images/svg/facebook.svg"
-                alt="facebook"
-                width="30px"
-                height="30px"
-              />
-            </a>
-          </li>
-        </ul>
+                <li class="info-address-item">
+                  <a class="info-address-link link" href="tel:+380983264191"
+                    >+38 098 326 41 91</a
+                  >
+                </li>
+
+                <li class="info-address-item">
+                  <a
+                    class="info-address-link link"
+                    href="mailto:i11071989@ukr.net"
+                    >i11071989@ukr.net</a
+                  >
+                </li>
+              </ul>
+            </address>
+
+            <div class="clock">
+              <p class="info-clock">Час роботи</p>
+              <ul class="info-clock-list list">
+                <li>
+                  <p class="info-clock-text">Пн-пт: 09:00-18:00</p>
+                </li>
+                <li>
+                  <p class="info-clock-text">Сб-Нд: вихідний</p>
+                </li>
+              </ul>
+              <p class="clock-text">За попередним записом!</p>
+            </div>
+
+            <div>
+              <p class="info-messeng">месенджери та соцмережі</p>
+              <ul class="info-messeng-list list">
+                <li class="info-messeng-item">
+                  <a
+                    class="link"
+                    href="viber://chat?number=%2B380983264191"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/svg/viber.svg"
+                      alt="viber"
+                      width="40px"
+                      height="40px"
+                    />
+                  </a>
+                </li>
+                <li class="info-messeng-item">
+                  <a
+                    class="link"
+                    href="https://t.me/InnaAdvokat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/svg/telegram.svg"
+                      alt="telegram"
+                      width="40px"
+                      height="40px"
+                    />
+                  </a>
+                </li>
+                <li class="info-messeng-item">
+                  <a
+                    class="link"
+                    href="https://wa.me/380983264191"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/svg/whatsapp.svg"
+                      alt="whatsapp"
+                      width="40px"
+                      height="40px"
+                    />
+                  </a>
+                </li>
+                <li class="info-messeng-item">
+                  <a
+                    class="link"
+                    href="https://m.me/inna.zhuk.35"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/svg/facebook-messenger.svg"
+                      alt="facebook messenger"
+                      width="40px"
+                      height="40px"
+                    />
+                  </a>
+                </li>
+                <li class="info-messeng-item">
+                  <a
+                    class="link"
+                    href="https://www.facebook.com/vibcomp/?locale=ua_UA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./images/svg/facebook.svg"
+                      alt="facebook"
+                      width="40px"
+                      height="40px"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <!--------------------------- footer ------------------------->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Адвокат Лучинович Інна</p>
+      </div>
+    </footer>
   </body>
 </html>

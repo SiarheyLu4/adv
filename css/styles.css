@@ -1,0 +1,386 @@
+:root {
+  --bg-color-one: #041b66;
+  --bg-color-two: #aaabb8; 
+  --bg-color-three: #2e9cca;
+  --text-color-one: #ffffff;
+  --text-color-two: #29648a;
+  /* --text-color-three: #464866; */
+  --text-color-three: #ffffff;
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  border: 2px red solid;
+}
+
+
+/* -----------------------header----------------------- */
+.header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--bg-color-one);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+
+}
+
+.header-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--text-color-one);
+}
+
+.header-link:hover,
+.header-contact-link:hover,
+.header-link:focus,
+.header-contact-link:focus {
+  color: teal;
+}
+
+.header-contact-item:first-child {
+  margin-bottom: 4px;
+}
+
+.header-contact-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--text-color-one);
+}
+
+
+/* < !----------------------- main -------hero--------------------> */
+
+.hero{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--bg-color-two);
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hero-info {
+  margin-left: 60px;
+}
+
+.hero-main-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--text-color-two);
+  margin-bottom: 4px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--text-color-two);
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  /* text-align: center; */
+  color: var(--text-color-two);
+}
+
+
+
+
+
+/* < !------------------ services ------------------------> */
+.services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--bg-color-three);
+}
+
+.services-title{ 
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--text-color-three);
+  margin-bottom: 40px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -40px;
+  margin-bottom: -40px;
+}
+
+.services-item {
+  flex-basis: calc(100% / 3 - 40px);
+  margin-right: 40px;
+  margin-bottom: 40px;
+
+  background-color: green;
+  /* padding: 8px; */
+}
+
+.services-item-title{
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--text-color-three);
+  margin-bottom: 20px;
+}
+
+.services-item-text{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    /* text-align: center; */
+  color: var(--text-color-three);
+}
+
+
+
+
+
+/* < !------------------ щось тут ------------------------> */
+.what {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--bg-color-two);
+}
+
+.what-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--text-color-two);
+}
+
+
+
+
+
+
+
+/* < !------------------ Корисні посилання ------------------> */
+.useful {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--bg-color-three);
+}
+
+.useful-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--text-color-three);
+  margin-bottom: 40px;
+}
+
+.useful-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -40px;
+  margin-bottom: -40px;
+}
+
+.useful-item {
+  flex-basis: calc(100% / 6 - 40px);
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.usefull-img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* < !--------------------------- contact ------------- *-------------> */
+.contact{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--bg-color-two);
+}
+
+.contact-title {
+  font-weight: 900;
+    font-size: 32px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-align: center;
+  color: var(--text-color-two);
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.info-address{
+  margin-right: 30px;
+  width: 444px;
+}
+
+.info-address-list {}
+
+.info-address-item:not(:last-child){
+  margin-bottom: 8px;
+}
+
+.info-address-link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.33;  
+  letter-spacing: 0.05em;
+  color: var(--text-color-two);
+}
+
+.info-address-link:focus,
+.info-address-link:hover {
+  color: teal;
+}
+
+.clock {
+  margin-right: 30px;
+}
+
+.info-clock {
+  font-weight: 700;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    /* text-align: center; */
+  color: var(--text-color-two);
+  margin-bottom: 4px;
+}
+
+.info-clock-list {
+  margin-bottom: 8px;
+}
+
+.info-clock-text {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  color: var(--text-color-two);
+}
+
+.clock-text {
+  font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    color: rgb(167, 11, 11);
+}
+
+.info-messeng {
+  font-weight: 700;
+  font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-align: center;
+  color: var(--text-color-two);
+  margin-bottom: 4px;
+}
+
+.info-messeng-list {
+  display: flex;
+
+}
+
+.info-messeng-item:not(:last-child) {
+  margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* < !--------------------------- footer -------------------------> */
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--bg-color-three);
+}
